@@ -1,0 +1,39 @@
+name       : openlp
+version    : 2.4.5
+release    : 1
+source     :
+    - https://get.openlp.org/2.4.5/OpenLP-2.4.5.tar.gz : a6724a2200d4b46e02f75a68f3c4075021162cfca449624c52f3c59935ba3345
+license    : GPL-2.0
+component  : multimedia.graphics
+summary    : OpenLP is a feature rich open-source church presentation platform
+description: |
+    OpenLP is a feature rich open-source church presentation platform
+builddeps  :
+    - qt5-tools
+rundeps    :
+    - python-alembic
+    - python-qt5
+build      : |
+    %python3_setup    
+install    : |
+    %python3_install
+
+    # Fix the binary name so that python will run
+    mv $installdir/usr/bin/openlp.py $installdir/usr/bin/openlp
+
+    # Assets and .desktop
+    install -D -m 00644 resources/openlp.desktop $installdir/usr/share/applications/openlp.desktop
+    for px in 16 32 48 64 128 256; do
+        install -D -m 00644 resources/images/openlp-logo-${px}x${px}.png $installdir/usr/share/icons/hicolor/${px}x${px}/apps/openlp.png
+    done
+    install -D -m 00644 resources/images/openlp-logo.svg $installdir/usr/share/icons/hicolor/scalable/apps/openlp.svg
+
+    # Translations
+    install -d $installdir/usr/share/openlp/i18n
+    cd resources/i18n
+    for t in *.ts; do
+        lconvert -i $t -o $installdir/usr/share/openlp/i18n/${t%%ts}qm
+    done
+
+    # Remove the tests
+    rm -rf /usr/lib/python3.5/site-packages/tests
