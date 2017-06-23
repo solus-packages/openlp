@@ -2,8 +2,8 @@
     <Source>
         <Name>openlp</Name>
         <Packager>
-            <Name>Bryan T. Meyers</Name>
-            <Email>bmeyers@datadrake.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Packager>
         <License>GPL-2.0</License>
         <PartOf>multimedia.graphics</PartOf>
@@ -20,13 +20,13 @@
         <PartOf>multimedia.graphics</PartOf>
         <Files>
             <Path fileType="executable">/usr/bin</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/OpenLP-2.4.5-py3.5.egg-info/PKG-INFO</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/OpenLP-2.4.5-py3.5.egg-info/SOURCES.txt</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/OpenLP-2.4.5-py3.5.egg-info/dependency_links.txt</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/OpenLP-2.4.5-py3.5.egg-info/entry_points.txt</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/OpenLP-2.4.5-py3.5.egg-info/not-zip-safe</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/OpenLP-2.4.5-py3.5.egg-info/requires.txt</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/OpenLP-2.4.5-py3.5.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/OpenLP-2.4.6-py3.5.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/OpenLP-2.4.6-py3.5.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/OpenLP-2.4.6-py3.5.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/OpenLP-2.4.6-py3.5.egg-info/entry_points.txt</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/OpenLP-2.4.6-py3.5.egg-info/not-zip-safe</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/OpenLP-2.4.6-py3.5.egg-info/requires.txt</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/OpenLP-2.4.6-py3.5.egg-info/top_level.txt</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/openlp/.version</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/openlp/__init__.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/openlp/__pycache__/__init__.cpython-35.pyc</Path>
@@ -569,6 +569,10 @@
             <Path fileType="library">/usr/lib/python3.5/site-packages/tests/functional/__init__.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/tests/functional/__pycache__/__init__.cpython-35.pyc</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/tests/functional/__pycache__/test_init.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/tests/functional/openlp_core/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/tests/functional/openlp_core/__pycache__/__init__.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/tests/functional/openlp_core/__pycache__/test_init.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/tests/functional/openlp_core/test_init.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/tests/functional/openlp_core_common/__init__.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/tests/functional/openlp_core_common/__pycache__/__init__.cpython-35.pyc</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/tests/functional/openlp_core_common/__pycache__/test_applocation.cpython-35.pyc</Path>
@@ -863,6 +867,10 @@
             <Path fileType="library">/usr/lib/python3.5/site-packages/tests/interfaces/openlp_plugins/bibles/__pycache__/test_lib_http.cpython-35.pyc</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/tests/interfaces/openlp_plugins/bibles/__pycache__/test_lib_manager.cpython-35.pyc</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/tests/interfaces/openlp_plugins/bibles/__pycache__/test_lib_parse_reference.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/tests/interfaces/openlp_plugins/bibles/forms/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/tests/interfaces/openlp_plugins/bibles/forms/__pycache__/__init__.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/tests/interfaces/openlp_plugins/bibles/forms/__pycache__/test_bibleimportform.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/tests/interfaces/openlp_plugins/bibles/forms/test_bibleimportform.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/tests/interfaces/openlp_plugins/bibles/test_lib_http.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/tests/interfaces/openlp_plugins/bibles/test_lib_manager.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/tests/interfaces/openlp_plugins/bibles/test_lib_parse_reference.py</Path>
@@ -889,11 +897,17 @@
             <Path fileType="library">/usr/lib/python3.5/site-packages/tests/interfaces/openlp_plugins/songs/forms/__pycache__/test_authorsform.cpython-35.pyc</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/tests/interfaces/openlp_plugins/songs/forms/__pycache__/test_editsongform.cpython-35.pyc</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/tests/interfaces/openlp_plugins/songs/forms/__pycache__/test_editverseform.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/tests/interfaces/openlp_plugins/songs/forms/__pycache__/test_songmaintenanceform.cpython-35.pyc</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/tests/interfaces/openlp_plugins/songs/forms/__pycache__/test_topicsform.cpython-35.pyc</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/tests/interfaces/openlp_plugins/songs/forms/test_authorsform.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/tests/interfaces/openlp_plugins/songs/forms/test_editsongform.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/tests/interfaces/openlp_plugins/songs/forms/test_editverseform.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/tests/interfaces/openlp_plugins/songs/forms/test_songmaintenanceform.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/tests/interfaces/openlp_plugins/songs/forms/test_topicsform.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/tests/interfaces/openlp_plugins/songusage/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/tests/interfaces/openlp_plugins/songusage/__pycache__/__init__.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/tests/interfaces/openlp_plugins/songusage/__pycache__/test_songusagedetailform.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/tests/interfaces/openlp_plugins/songusage/test_songusagedetailform.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/tests/resources/__init__.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/tests/resources/__pycache__/__init__.cpython-35.pyc</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/tests/resources/projector/__init__.py</Path>
@@ -920,12 +934,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2017-02-23</Date>
-            <Version>2.4.5</Version>
+        <Update release="2">
+            <Date>2017-06-22</Date>
+            <Version>2.4.6</Version>
             <Comment>Packaging update</Comment>
-            <Name>Bryan T. Meyers</Name>
-            <Email>bmeyers@datadrake.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Update>
     </History>
 </PISI>
