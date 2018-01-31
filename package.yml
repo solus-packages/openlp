@@ -1,6 +1,6 @@
 name       : openlp
 version    : 2.4.6
-release    : 2
+release    : 3
 source     :
     - https://get.openlp.org/2.4.6/OpenLP-2.4.6.tar.gz : f63dcf5f1f8a8199bf55e806b44066ad920d26c9cf67ae432eb8cdd1e761fc30
 license    : GPL-2.0
@@ -9,7 +9,7 @@ summary    : OpenLP is a feature rich open-source church presentation platform
 description: |
     OpenLP is a feature rich open-source church presentation platform
 builddeps  :
-    - qt5-tools
+    - pkgconfig(Qt5UiTools)
 rundeps    :
     - python3-qt5
     - pyenchant
