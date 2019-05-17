@@ -1,9 +1,9 @@
 name       : openlp
 version    : 2.4.6
-release    : 3
+release    : 4
 source     :
     - https://get.openlp.org/2.4.6/OpenLP-2.4.6.tar.gz : f63dcf5f1f8a8199bf55e806b44066ad920d26c9cf67ae432eb8cdd1e761fc30
-license    : GPL-2.0
+license    : GPL-2.0-only
 component  : multimedia.graphics
 summary    : OpenLP is a feature rich open-source church presentation platform
 description: |
@@ -41,4 +41,4 @@ install    : |
     done
 
     # Remove the tests
-    rm -rf /usr/lib/python3.5/site-packages/tests
+    rm -rf $installdir/usr/lib/python%python3_version%/site-packages/tests
